@@ -137,6 +137,18 @@
 }
 
 @media(max-width:930px){
+    .button{
+    padding: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    width: 100px;
+    color: white;
+    margin-top: 25px;
+}
+    .containerText h1{
+    color: white;
+    font-size: 35px;
+}
     .text1{
         display: none;
     }
