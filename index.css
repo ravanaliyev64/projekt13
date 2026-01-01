@@ -172,6 +172,12 @@
     }
 }
 @media(max-width:1130px){
+    .textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
     .textBox p{
     line-height: 1;
     text-align: center;
