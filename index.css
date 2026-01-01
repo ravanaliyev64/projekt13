@@ -172,6 +172,11 @@
     }
 }
 @media(max-width:1130px){
+    .textBox p{
+    line-height: 1;
+    text-align: center;
+    font-size: 15px;
+}
     .containerBox{
         display: flex;
         flex-direction: column;
