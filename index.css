@@ -353,7 +353,113 @@
 .bottomBigForm{
     margin-top: 20px;
 }
+.footer{
+    background-color: #1a1a1a;
+}
+.footerImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    color: white;
+}
+.footerImg{
+    height: 100px;
+    width: 200px;
+}
+.footerText{
+    color: white;
+}
+.footerIcon{
+    color: #658161;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer2 h3{
+    color: white;
+}
+.footer2 p{
+    color: white;
+}
+.footer2 h3:hover{
+    color: #658161;
+}
+.footer p:hover{
+    color: #658161;
+}
+.footerAll{
+    display: flex;
+    gap: 20px;
+    
+}
+.footer3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer3 h3{
+    color: white;
+}
+.textIcon{
+    display: flex;
+    gap: 10px;
+}
+.textIcon{
+    color: white;
+}
+.color2{
+    color: #658161;
+}
+
+.footer4 h3{
+    color: white;
+    margin-top: 20px;
+    
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input2{
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttonFooter{
+    padding: 20px;
+    background-color: #658161;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.buttonFooter:hover{
+    background-color: #d4e2d2;
+    color: black;
+    
+}
+
+
 @media(max-width:1060px){
+    .footerAll{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
     .bigForm{
         display: flex;
         flex-direction: column;
