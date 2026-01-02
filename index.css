@@ -212,14 +212,14 @@
     width: 250px;
     background-color: white;
     border-radius: 20px;
-  
+    display: flex;
+    justify-content: center;
 }
 .fourText{
      display: flex;
     flex-direction: column;
     width: 200px; 
     align-items: center;
-    padding: 15px;
 }
 .fourText h4{
     background-color: #d4e2d2;
@@ -228,6 +228,9 @@
     border-radius:50%;
     font-size: 20px;
     text-align: center;
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
 }
 .fourText h3{
     text-align: center;
@@ -258,6 +261,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 20px;
 }
 .section4 h2{
     text-align: center;
@@ -269,6 +273,105 @@
     text-align: center;
     padding-bottom: 40px;
 }
+
+.imgSection img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.imgSection{
+    height: 150px;
+    width: 150px;
+}
+.boxSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #d4e2d2;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.textSection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 350px;
+}
+.textSection h3{
+    font-size: 40px;
+}
+.textSection p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+.input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #d4e2d2;
+    width: 300px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.buttonSection{
+    width: 100%;
+}
+.form3{
+    width: 100%;
+}
+.topBigform{
+    display: flex;
+    gap: 20px;
+}
+.textArea{
+    width: 100%;
+}
+.buttonSection{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #658161;
+    color: white;
+    margin-top: 20px;
+}
+.buttonSection:hover{
+    background-color: #d4e2d2;
+    color: black;
+}
+
+.containerSection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bottomBigForm{
+    margin-top: 20px;
+}
+@media(max-width:1060px){
+    .bigForm{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+   .containerSection{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.topBigform{
+    flex-direction: column;
+    
+}
+}
 @media(max-width:600px){
     .section4 h2{
     text-align: center;
@@ -278,7 +381,21 @@
 }
 }
 @media(max-width:1200px) {
-
+    .fourBox{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    
+  
+}
+.fourText{
+     display: flex;
+    flex-direction: column;
+    width: 400px; 
+    align-items: center;
+    padding: 15px;
+}
     .fourContainer{
         flex-direction: column;
         align-items: center;
