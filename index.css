@@ -1,16 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.header1{
+
+.header1 {
     background-color: #658161;
 }
-.text{
+
+.text {
     display: flex;
 }
-.textContainer{
+
+.textContainer {
     display: flex;
     padding: 30px;
     justify-content: end;
@@ -18,54 +21,61 @@
     font-size: 20px;
     cursor: pointer;
 }
-.iconBox{
+
+.iconBox {
     display: flex;
     gap: 20px;
     color: white;
 }
-.text p{
-    color: white;
-}
-.color{
+
+.text p {
     color: white;
 }
 
-.logo img{
+.color {
+    color: white;
+}
+
+.logo img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.logo{
+
+.logo {
     margin-left: 20px;
-    height:100px;
+    height: 100px;
     width: 150px;
 }
-.header2{
+
+.header2 {
     display: flex;
     align-items: center;
-    
+
 }
 
-.container{
+.container {
     display: flex;
     width: 90%;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.ul{
+
+.ul {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     list-style: none;
     gap: 40px;
 }
-.fa-bars{
+
+.fa-bars {
     display: none;
     font-size: 20px;
 }
 
-.section1{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url(img/sekil2.jpg);
+.section1 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(img/sekil2.jpg);
     background-position: center;
     background-size: 1500px;
     background-repeat: no-repeat;
@@ -73,17 +83,19 @@
     background-attachment: fixed;
 }
 
-.containerText{
+.containerText {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
 }
-.containerText h1{
+
+.containerText h1 {
     color: white;
     font-size: 70px;
 }
-.button{
+
+.button {
     padding: 10px;
     background-color: transparent;
     border: 3px solid white;
@@ -91,11 +103,13 @@
     color: white;
     margin-top: 50px;
 }
-.button:hover{
+
+.button:hover {
     background-color: white;
     color: black;
 }
-.box{
+
+.box {
     background-color: white;
     height: 400px;
     width: 250px;
@@ -106,33 +120,37 @@
     padding: 20px;
     box-shadow: 0px 0px 5px gray;
 }
-.imgBox img{
+
+.imgBox img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.imgBox{
+.imgBox {
     height: 100px;
     width: 100px;
 }
-.textBox{
+
+.textBox {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
-.textBox h4{
+
+.textBox h4 {
     font-size: 20px;
 }
-.textBox p{
+
+.textBox p {
     line-height: 1.5;
     text-align: center;
     font-size: 20px;
 }
 
-.containerBox{
+.containerBox {
     padding-top: 30px;
     display: flex;
     justify-content: center;
@@ -141,115 +159,231 @@
     bottom: 100px;
 }
 
-.img img{
+.img img {
     height: 50px;
     width: 50px;
     object-fit: cover;
 }
-.img{
-    height: 40px;
+
+.img {
     display: flex;
     gap: 20px;
 }
-.boxText{
+
+.boxText {
     width: 400px;
 }
-.bigContainer{
+
+.bigContainer {
     display: flex;
     justify-content: center;
 }
-.miniText h4{
+
+.miniText h4 {
     font-size: 25px;
     margin-bottom: 10px;
 }
-.miniText p{
+
+.miniText p {
     line-height: 1.5;
 }
-.bigContainer2{
+
+.bigContainer2 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
-.section3 h2{
+
+.section3 h2 {
     text-align: center;
     margin-bottom: 50px;
     font-size: 40px;
     letter-spacing: 5px;
 }
-@media(max-width:1200px){
-    .img{
-    height: 40px;
-    display: flex;
-    gap: 10px;
+
+.section4 {
+    background-color: #d4e2d2;
+   
 }
-    .miniText h4{
-    font-size: 15px;
-    margin-bottom: 5px;
+
+
+.fourBox{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+  
 }
-    .bigContainer{
-        flex-direction: column;
-        align-items: center;
-        gap: 100px;
-    }
-    .bigContainer2{
-        flex-direction: column;
-        align-items: center;
-        gap: 100px;
-    }
+.fourText{
+     display: flex;
+    flex-direction: column;
+    width: 200px; 
+    align-items: center;
+    padding: 15px;
 }
-@media(max-width:930px){
-    .button{
+.fourText h4{
+    background-color: #d4e2d2;
+    color: white;
+    padding: 20px;
+    border-radius:50%;
+    font-size: 20px;
+    text-align: center;
+}
+.fourText h3{
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+.fourText p{
+    line-height: 1.5;
+    text-align: center;
+   
+}
+.fourButton{
     padding: 10px;
+    width: 100px;
+    border-radius: 10px;
     background-color: transparent;
-    border: 3px solid white;
-    width: 75px;
-    color: white;
-    margin-top: 25px;
-}
-    .containerText h1{
-    color: white;
+    border: 3px solid #d4e2d2;
+    color: #d4e2d2;
     font-size: 15px;
+    font-weight: bolder;
 }
-    .text1{
+.fourButton:hover{
+    background-color: #d4e2d2;
+    color: white;
+}
+.fourContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.section4 h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.section4 p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+@media(max-width:600px){
+    .section4 h2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+}
+@media(max-width:1200px) {
+    .fourBox{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+  
+}
+.fourText{
+     display: flex;
+    flex-direction: column;
+    width: 400px; 
+    align-items: center;
+    padding: 15px;
+}
+    .fourContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img {
+        height: 40px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .miniText h4 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .bigContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .bigContainer2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:930px) {
+    .button {
+        padding: 10px;
+        background-color: transparent;
+        border: 3px solid white;
+        width: 75px;
+        color: white;
+        margin-top: 25px;
+    }
+
+    .containerText h1 {
+        color: white;
+        font-size: 15px;
+    }
+
+    .text1 {
         display: none;
     }
-    .text3{
+
+    .text3 {
         display: none;
     }
-    .textContainer{
+
+    .textContainer {
         justify-content: center;
-        font-size: 20px;
+        font-size: 25px;
         padding: 15px;
     }
-    .ul{
+
+    .ul {
         display: none;
     }
-    .fa-bars{
+
+    .fa-bars {
         display: block;
     }
-    .container{
+
+    .container {
         justify-content: center;
         gap: 30px;
     }
 }
-@media(max-width:1130px){
-    .textBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-    .textBox p{
-    line-height: 1;
-    text-align: center;
-    font-size: 15px;
-}
-    .containerBox{
+
+@media(max-width:1130px) {
+    .textBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .textBox p {
+        line-height: 1;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .containerBox {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .box{
+
+    .box {
         height: 350px;
         width: 300px;
     }
