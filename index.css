@@ -177,6 +177,10 @@
     letter-spacing: 5px;
 }
 @media(max-width:1200px){
+    .miniText h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
     .bigContainer{
         flex-direction: column;
         align-items: center;
@@ -209,7 +213,7 @@
     }
     .textContainer{
         justify-content: center;
-        font-size: 15px;
+        font-size: 20px;
         padding: 15px;
     }
     .ul{
