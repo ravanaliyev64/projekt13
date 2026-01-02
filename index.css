@@ -177,6 +177,11 @@
     letter-spacing: 5px;
 }
 @media(max-width:1200px){
+    .img{
+    height: 40px;
+    display: flex;
+    gap: 10px;
+}
     .miniText h4{
     font-size: 15px;
     margin-bottom: 5px;
